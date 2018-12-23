@@ -11,6 +11,6 @@ public class SampleController {
     @RequestMapping(value = "/sample", method = RequestMethod.GET)
     @ResponseBody
     public String HelloWorld() {
-        return "World Hello !!! ";
+        return "World Hello !!!!! ";
     }
 }
